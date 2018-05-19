@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+hr{
+  color:#eae5e5;
+  border:0.5px solid #eae5e5 ;
+}
+.button{
+  background-color:red;
+  border:0 solid white;
+  padding: 5px;
+  width: 70px;
+  height:20px;
+  line-height:20px;
+  text-align: center;
+  font-weight:bold;
+color:white;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+
+
+}
+.container{
+  display: flex;
+  justify-content:center;
+  /*align-items: center;*/
+  flex:1;
+  width: 100%
+}
+.detail{
+  overflow: auto;
+
+}
+.card{
+  /*flex:1;*/
+
+  margin:10px;
+height:350px;
+flex-basis:250px;
+/*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);*/
+border:1px solid #e5e5e5;
+}
+.link{
+  color:white;
+text-decoration-line: none;
+
+}
+.link:hover{
+  color:black;
+ /* text-decoration-line: none;*/
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.shopping-list{
+  box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
